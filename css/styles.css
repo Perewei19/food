@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVIGATION */
+
+.navbar-brand{
+  width: 10rem;
+}
+
+
+.nav-link{
+font-weight: bold;
+}
+
+
+.tittle-heading{
+  font-weight: 800;
+  color: #260207;
+}
+
+.nav-btn a{
+  color:white;
+  text-decoration: none;
+}
+
+.nav-btn{
+  background-color: #f3003f;
+
+   border-radius: 20px;
+   border: 1px solid #fff;
+  padding:8px 15px;
+}
+
+.nav-btn:hover{
+  background-color: #320001;
+   color:white;
+   border-radius: 20px;
+   border: 1px solid #fff;
+  padding:8px 15px;
+}
+
+
+/* HOME */
+.home-button{
+  background: #f3003f;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+}
+
+.home-button:hover{
+  background: #fff;
+  border: #f3003f 1px solid;
+  color: #f3003f;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+
+/* About section */
+
+#About{
+  padding: 8rem 2rem;
+}
+
+.about-row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.about-heading{
+  font-size: 2.7rem;
+}
+
+.we-do{
+  color: #f3003f;
+}
+
+.about-text{
+  color: #bdbdbd;
+}
+
+.about-button{
+  background: #f3003f;
+  color: #fff;
+  padding: 10px 20px;
+  border-style: none;
+}
+
+.about-button:hover{
+  background: #fff;
+  color: #f3003f;
+  padding: 10px 20px;
+  border-style: none;
+}
+
+/* About note */
+
+#about-note{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("foodcover3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 130px 0 80px;
+}
+
+
+.about-note-text {
+  color: #bdbdbd;
+}
+
+.about-note-button{
+  background: #f3003f;
+  color: #fff;
+  padding: 10px 20px;
+  border-style: none;
+}
+
+.about-note-button:hover{
+  background: #fff;
+  color: #f3003f;
+  padding: 10px 20px;
+  border: 1px solid #f3003f;
+}
+
+
+/* MENU SECTION */
+
+.menu-text h2{
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #260207;
+}
+
+.card-title{
+  margin-top: 1rem;
+}
+
+.card-title h5{
+  font-weight: bold;
+  color: #260207;
+}
+
+.card-price{
+  text-decoration: line-through;
+  margin-left: 0.3rem;
+}
+
+
+.menu-button{
+  background: #f3003f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.menu-button:hover{
+  background: #fff;
+  color: #f3003f;
+  padding: 10px 20px;
+  border: 1px solid #f3003f;
+}
+
+
+/* REVIEWS */
+
+#Testimonial{
+font-family: 'Poppins', sans-serif;
+background: #f3003f;
+  margin: 10rem 0;
+}
+
+
+.client-image{
+  border-radius: 100%;
+  width: 30%;
+}
+
+.Testimonial-heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+
+/* Contact section */
+#contact{
+  background-color: #080012;
+  padding: 5rem 1rem;
+}
+
+.contact-button{
+  background-color: #f3003f;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.9rem;
+  border-style: none;
+  border-radius: 10px;
+}
+
+
+/* FAQ */
+.FAQ-text{
+  color:  #260207;
+  font-size: 1.5rem;
+}
+
+
+/* footer */
+#footer{
+  margin-top: 3rem;
+  background:  #080012;
+  padding: 3rem 1rem;
+}
